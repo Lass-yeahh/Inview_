@@ -1,0 +1,136 @@
+.register-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: #f8fafc;
+    font-family: "Inter", sans-serif;
+}
+
+
+.register-left {
+    flex: 1.3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-blend-mode: lighten;
+}
+
+.register-right {
+    flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.register-card {
+    width: 380px;
+    padding: 35px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    color: #2a2a2a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.register-card:hover {
+    transform: translateY(-3px);
+}
+
+.register-card h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #124B84;
+}
+
+.register-card input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    background: #fafafa;
+    font-size: 15px;
+    transition: 0.25s ease;
+    box-sizing: border-box;
+}
+
+.register-card input:focus {
+    border-color: #124B84;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.25);
+    outline: none;
+}
+
+.register-card button {
+    padding: 14px;
+    width: 100%;
+    background: #124B84;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 16px;
+    transition: 0.25s;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.register-card button:hover {
+    background: #124B84;
+    box-shadow: 0 4px 14px rgba(108, 99, 255, 0.3);
+}
+
+.error,
+.success {
+    width: 100%;
+    text-align: left;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.error {
+    color: #ff4d4d;
+    font-weight: 500;
+}
+
+.success {
+    color: #28b463;
+    font-weight: 500;
+}
+
+.login-link {
+    margin-top: 18px;
+    font-size: 15px;
+    color: #555;
+}
+
+.login-link span {
+    color: #124B84;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.login-link span:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+    .register-left {
+        display: none;
+    }
+
+    .register-right {
+        flex: 1;
+        padding: 25px;
+    }
+
+    .register-card {
+        width: 92%;
+    }
+}

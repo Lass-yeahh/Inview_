@@ -1,0 +1,6 @@
+@InvenTracker_HostAddress = http://localhost:5221
+
+GET {{InvenTracker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

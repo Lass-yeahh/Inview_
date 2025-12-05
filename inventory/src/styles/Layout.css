@@ -1,0 +1,42 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f8fafc;
+    font-family: "Inter", sans-serif;
+    color: #455a64;
+}
+
+.layout-body {
+    display: flex;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.page-content {
+    flex: 1;
+    padding: 24px;
+    overflow-y: auto;
+    transition: margin-left 0.28s ease;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 720px) {
+    .sidebar.open {
+        width: 200px;
+    }
+
+    .topbar-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #37474f;
+    }
+
+    .page-content {
+        border-radius: 0;
+        box-shadow: none;
+        padding: 16px;
+    }
+}

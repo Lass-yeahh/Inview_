@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenTracker", "InvenTracker\InvenTracker.csproj", "{4DB86161-F5D4-4F11-A245-5F221976265E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenTracker.tests", "InvenTracker.tests\InvenTracker.tests.csproj", "{A9A231FE-992D-49DC-861A-5C25F12CB40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB86161-F5D4-4F11-A245-5F221976265E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB86161-F5D4-4F11-A245-5F221976265E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB86161-F5D4-4F11-A245-5F221976265E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB86161-F5D4-4F11-A245-5F221976265E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A231FE-992D-49DC-861A-5C25F12CB40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A231FE-992D-49DC-861A-5C25F12CB40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A231FE-992D-49DC-861A-5C25F12CB40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A231FE-992D-49DC-861A-5C25F12CB40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5F4F9A6-EB96-449B-A933-07D4CBA20650}
+	EndGlobalSection
+EndGlobal

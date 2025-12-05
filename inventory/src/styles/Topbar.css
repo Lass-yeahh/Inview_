@@ -1,0 +1,65 @@
+.topbar {
+    height: 80px;
+    background: #124b84;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.menu-btn:hover {
+    color: #d1d5db;
+}
+
+.topbar-logo-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.topbar-right {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.th {
+    background: #ced6e0;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.button-emphasis {
+    background: #c74627;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-emphasis:hover {
+    opacity: 0.9;
+}

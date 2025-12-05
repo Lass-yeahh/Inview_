@@ -1,0 +1,231 @@
+.products-container {
+    padding: 80px 40px 40px;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    min-height: 100vh;
+}
+
+.products-container h2 {
+    margin-bottom: 20px;
+    color: #124B84;
+    font-weight: 600;
+}
+
+.add-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.add-section input {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.add-section button {
+    background: #124B84;
+    color: #e5e7eb;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background 0.3s ease;
+}
+
+.add-section button:hover {
+    background: #103c68;
+    color: #e5e7eb;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 18px 0;
+    box-sizing: border-box;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.products-table th,
+.products-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+}
+
+.products-table th {
+    background: #124B84;
+    color: #e5e7eb;
+    font-weight: 600;
+}
+
+.products-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.products-table button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #124B84;
+    color: #e5e7eb;
+    transition: background 0.3s ease;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-table button:hover {
+    background-color: #103c68;
+    color: #e5e7eb;
+}
+
+.edit-btn {
+    margin-right: 8px;
+    background-color: #124B84;
+}
+
+.edit-btn:hover {
+    background-color: #103c68;
+}
+
+.delete-btn {
+    background-color: #124B84;
+}
+
+.delete-btn:hover {
+    background-color: #103c68;
+}
+
+.add-btn {
+    background: #124B84;
+    color: #e5e7eb;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+    background: #103c68;
+    color: #e5e7eb;
+}
+
+.edit-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.edit-box {
+    background: white;
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.edit-box h3 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #333;
+}
+
+.edit-box label {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.edit-box input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.edit-box button {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.edit-box button:first-of-type {
+    background: #124B84;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.edit-box button:first-of-type:hover {
+    background: #103c68;
+    color: #e5e7eb;
+}
+
+.edit-box button.cancel {
+    background: #aaa;
+    color: black;
+}
+
+.edit-box button.cancel:hover {
+    background: #888;
+}
+
+.error {
+    color: #C74627;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+    .products-container {
+        padding: 40px 20px 20px;
+    }
+
+    .edit-box {
+        width: 90%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,81 @@
+.stock-container {
+    width: 90%;
+    margin: auto;
+    max-width: 800px;
+}
+
+.stock-container h2,
+.stock-container h3 {
+    color: #124B84;
+    font-weight: 600;
+}
+
+.stock-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.stock-form input,
+.stock-form select {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.stock-form button {
+    background: #124B84;
+    color: #e5e7eb;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.msg {
+    background: #dff0d8;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tx-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tx-table th,
+.tx-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.tx-table thead tr,
+.tx-table thead th {
+    background-color: #124B84 !important;
+    color: #e5e7eb !important;
+}
+
+.tx-table td.green,
+.tx-table td.red {
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
