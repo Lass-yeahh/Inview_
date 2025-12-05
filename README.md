@@ -3,6 +3,7 @@ This repository contains the source code for the Inview Inventory application.
 It includes both frontend and backend components, along with supporting configuration and test files.
 
 Project Structure
+
 Frontend - inventory
 - React
 - React Router
